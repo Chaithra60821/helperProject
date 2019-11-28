@@ -8,8 +8,13 @@
     <artifactId>git-helperProject</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
-
-
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>
