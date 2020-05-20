@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class LatcheEx {
    public static long timetasks(int threads) throws InterruptedException {
-     CountDownLatch startGate = new CountDownLatch(1);
+     CountDownLatch  startGate = new CountDownLatch(1);
      CountDownLatch endGate = new CountDownLatch(threads);
 
      //Starting gate allows the master thread to release all the worker threads at once, and the
